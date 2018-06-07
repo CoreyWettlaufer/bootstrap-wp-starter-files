@@ -1,10 +1,10 @@
+<?php
 /*
 ***
 **** This file is used to enqueue all the javascript files for the site. If you have any custom javascript you need in your child theme, please create a customjs.js file in your child theme. You will need to enqueue this new file from your child themes functions.php file.
 ***
 */
 
-<?php
 
 // Enqueue Scripts
 function custom_scripts() {

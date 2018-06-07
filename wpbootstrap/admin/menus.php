@@ -1,10 +1,10 @@
+<?php
+
 /*
 ***
 **** This file is to set up all of the default menus that could be used throughout the site. If you need additional menus, please create them in the child theme.
 ***
 */
-
-<?php
 
 function register_my_menus() {
   register_nav_menus(array(

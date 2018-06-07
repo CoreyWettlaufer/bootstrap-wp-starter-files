@@ -1,13 +1,15 @@
+<?php
+
 /*
 ***
 **** This file is used to enqueue all the styles for the parent theme. If you need to enqueue fonts from Google fonts, take the commented out lines and add them into your child themes functions.php file.
 ***
 */
 
-<?php
-
 // Enqueue Styles and Google Fonts
 function custom_styles() {
+    // Normalize
+    wp_enqueue_style( 'normalize', get_bloginfo('template_url') . '/css/normalize.css');
     // Bootstrap CDN
     wp_enqueue_style('bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
     wp_enqueue_style( 'custom_css', get_bloginfo('template_url') . '/main.css');

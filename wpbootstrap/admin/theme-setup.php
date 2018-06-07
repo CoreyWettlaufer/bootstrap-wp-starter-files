@@ -1,12 +1,10 @@
+<?php
 /*
 ***
 **** This file initiates theme setup
 ***
 */
 
-<?php
-
-<?php
 
 if ( ! function_exists( 'custom_setup' ) ) :
 

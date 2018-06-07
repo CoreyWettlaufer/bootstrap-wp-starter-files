@@ -1,10 +1,10 @@
+<?php
 /*
 ***
 **** This file is to set up sidebars/widget areas to be used in page templates
 ***
 */
 
-<?php
 
 // This widget is for the sidebar page template.
 register_sidebar( array(

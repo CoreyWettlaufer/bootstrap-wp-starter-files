@@ -1,10 +1,11 @@
+<?php
 /*
 ***
 **** This file contains all of the shortcodes you can use in your child theme. For use with bootstrap, containers, columns, etc.
 ***
 */
 
-<?php
+
 
 // Container Shortcode. By default this container is a bootstrap fluid container, which spans the full width of the viewport
 function container_shortcode( $atts, $content ) {
