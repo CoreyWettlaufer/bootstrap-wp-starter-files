@@ -1,0 +1,8 @@
+/*
+***
+**** This stylesheet is for variables used in the parent theme AND to call in stylesheet partials only. Any variable in the parent theme cannot be used in child theme.
+***
+*/
+
+@import "base";
+@import "typography";

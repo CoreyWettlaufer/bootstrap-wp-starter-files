@@ -1,0 +1,62 @@
+/*
+***
+**** This stylesheet is for base typography styles.
+***
+*/
+
+
+
+/* All content EXCEPT HEADINGS given a base font-size of 1.8rem == 18px. */
+
+p,
+span,
+a, a:link,
+li,
+th, td,
+blockquote {
+   font-size: 1.8rem;
+}
+
+/* Paragraphs, Unordered and Ordered lists have a default bottom margin of 4.5rem == 45px. */
+p,
+ul,
+ol {
+   margin-bottom: 4.4rem;
+}
+
+/* All headings have a default bottom margin of 3rem == 30px. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin-bottom: 2.5rem;
+}
+
+/* Default heading sizes. */
+h1 {
+   font-size: 4rem;
+}
+h2 {
+   font-size: 3.2rem;
+}
+h3 {
+   font-size: 2.8rem;
+}
+h4 {
+   font-size: 2.4rem;
+}
+h5 {
+   font-size: 2rem;
+   font-weight: bold;
+}
+h6 {
+   font-size: 1.8rem;
+   font-weight: bold;
+}
+
+/* Remove default text underline on link states. */
+a, a:link, a:visited, a:hover {
+   text-decoration: none;
+}
