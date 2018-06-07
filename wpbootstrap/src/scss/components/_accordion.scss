@@ -1,0 +1,27 @@
+.accordionItem {
+
+   width: 100%;
+   cursor: pointer;
+   margin-bottom: 2rem;
+
+   > p {
+      margin-bottom: 0;
+      background: #f8f7fc;
+      border: 1px solid #999;
+       border-radius: 5px;
+       padding: 1rem;
+   }
+}
+
+.accordionContent {
+   padding: 1.2rem;
+   box-shadow: 1px 2px 5px 0 #999;
+   width: 99%;
+   margin: 0 auto;
+   cursor: default;
+
+   p {
+
+      margin-bottom: 0;
+   }
+}

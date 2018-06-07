@@ -1,0 +1,13 @@
+/*
+***
+**** This stylesheet is for base button styles only.
+***
+*/
+
+.button, button {
+   display: inline-block;
+   padding: 1.5rem 2rem;
+   text-decoration: none;
+}
+
+/* Hover states of buttons should be declared in child theme as they may use brand color variables, transitions, opacity etc. This is not a global state. */

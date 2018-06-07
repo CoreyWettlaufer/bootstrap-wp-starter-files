@@ -77,4 +77,16 @@ function span_shortcode( $atts, $content ) {
 }
 add_shortcode( 'span', 'span_shortcode' );
 
+
+// Accordion Shortcode
+function accordion_shortcode( $atts, $content ) {
+	$content = wpautop(trim($content));
+	$a = shortcode_atts( array(
+		'class' => '',
+		'title' => ''
+	), $atts );
+	return '<div class="accordionItem ' . esc_attr($a['class']) . '"><p class="accordionToggle accordionTitle"><strong> ' . esc_attr($a['title']) . ' </strong></p><div class="accordionContent">' . do_shortcode($content) . '</div></div>';
+}
+add_shortcode( 'accordion', 'accordion_shortcode' );
+
 ?>
