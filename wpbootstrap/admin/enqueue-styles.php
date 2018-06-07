@@ -12,7 +12,7 @@ function custom_styles() {
     wp_enqueue_style( 'normalize', get_bloginfo('template_url') . '/css/normalize.css');
     // Bootstrap CDN
     wp_enqueue_style('bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
-    wp_enqueue_style( 'custom_css', get_bloginfo('template_url') . '/main.css');
+    wp_enqueue_style( 'parent_css', get_bloginfo('template_url') . '/main.css', array('bootstrap_css'), false);
     //wp_enqueue_style( 'Oswald', 'https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700' );
     //wp_enqueue_style( 'OpenSansCondensed', 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700' );
 }
