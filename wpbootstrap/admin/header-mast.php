@@ -1,10 +1,10 @@
+<?php
 /*
 ***
 **** This file is to set up the header mast for use on page templates.
 ***
 */
 
-<?php
 
 /// ADD CUSTOM FIELDS FOR PAGES (HEADER MAST)
 function page_add_meta_box() {

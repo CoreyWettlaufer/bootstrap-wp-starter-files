@@ -7,7 +7,7 @@ include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/enqueue-styles.php');
 include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/enqueue-scripts.php');
 include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/sidebars.php');
 include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/menus.php');
-include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/shortcodes/shortcodes.php');
+include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/shortcodes/short-codes.php');
 
 // Custom Excerpt Length and Read More Tag
 function new_excerpt_more($more) {
