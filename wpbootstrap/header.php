@@ -18,7 +18,7 @@
       <header class="container-fluid">
          <div class="container">
             <div class="flex-header row justify-content-between padding20">
-               <div class="logo">
+               <div class="logo align-self-center">
                   <a href="<?php echo home_url(); ?>">
                      <?php
                         if ( function_exists( 'the_custom_logo' ) ) {
@@ -29,12 +29,14 @@
                   </a>
                </div>
 
+               <!--
                <div class="stickylogo">
-                  <a href="<?php echo home_url(); ?>">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Company Logo">
-                     <!--<img src="<?php //bloginfo('template_url'); ?>/img/logo-sticky.png" alt="">-->
+                  <a href="<?php //echo home_url(); ?>">
+                     <img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Company Logo">
+                     <img src="<?php //bloginfo('template_url'); ?>/img/logo-sticky.png" alt="">
                   </a>
                </div>
+            -->
 
                <div class="header-block align-self-center">
                    <div class="inner-block d-flex flex-column justify-content-center">
