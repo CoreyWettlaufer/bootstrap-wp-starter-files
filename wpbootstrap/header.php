@@ -31,7 +31,7 @@
 
                <div class="stickylogo">
                   <a href="<?php echo home_url(); ?>">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/assets/sticky-header-logo.png" alt="Gator Shredding Logo">
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Company Logo">
                      <!--<img src="<?php //bloginfo('template_url'); ?>/img/logo-sticky.png" alt="">-->
                   </a>
                </div>
@@ -62,7 +62,7 @@
                </div>
 
                <nav id="mainNav" class="mobile-nav" role="navigation">
-                  <a href="javascript:void(0);" class="get-quote primaryButton" data-toggle="modal" data-target="#popForm">Let's Shred</a>
+                  <a href="javascript:void(0);" class="get-quote primaryButton" data-toggle="modal" data-target="#popForm">Contact Button</a>
                   <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '' ) ); ?>
                </nav>
 

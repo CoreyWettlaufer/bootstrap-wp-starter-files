@@ -9,6 +9,20 @@ include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/sidebars.php');
 include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/menus.php');
 include(dirname(TEMPLATEPATH).'/wpbootstrap/admin/shortcodes/short-codes.php');
 
+
+/* Site Logo (used in the Appearance -> Customize settings) */
+function ns_custom_logo_setup() {
+    $defaults = array(
+        'height'      => 100,
+        'width'       => 400,
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => array( 'site-title', 'site-description' ),
+    );
+    add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'ns_custom_logo_setup' );
+
 // Custom Excerpt Length and Read More Tag
 function new_excerpt_more($more) {
     global $post;
