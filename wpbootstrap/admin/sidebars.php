@@ -28,4 +28,14 @@ register_sidebar( array(
    'after_title' => '</h4>',
 ) );
 
+register_sidebar( array(
+   'name' => __( 'Header Block'),
+   'id' => 'header-block',
+   'description' => __( 'This is the header widget area' ),
+   'before_widget' => '<div id="%1$s" class="widget">',
+   'after_widget' => '</div>',
+   'before_title' => '<h4>',
+   'after_title' => '</h4>',
+) );
+
 ?>
