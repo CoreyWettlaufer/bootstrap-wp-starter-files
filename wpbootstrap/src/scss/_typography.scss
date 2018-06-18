@@ -24,6 +24,10 @@ ol {
    margin-bottom: 4.4rem;
 }
 
+p:last-of-type {
+   margin-bottom: 0;
+}
+
 /* All headings have a default bottom margin of 3rem == 30px. */
 h1,
 h2,

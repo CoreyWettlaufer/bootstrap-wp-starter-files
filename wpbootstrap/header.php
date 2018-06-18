@@ -38,37 +38,37 @@
                </div>
             -->
 
-               <div class="header-block align-self-center">
-                   <div class="inner-block d-flex flex-column justify-content-center">
+               <div class="header-block d-flex flex-column justify-content-center align-self-stretch">
+
                        <?php dynamic_sidebar('header-block'); ?>
-                   </div>
+                       <div class="header-nav row padding10">
+
+                          <div class="mobile-icons">
+                             <a href="javascript:void(0);" id="navToggle" class="nav-toggle">
+                                <i class="fa fa-bars"></i>
+                                <span>MENU</span>
+                             </a>
+                             <a href="javascript:void(0);" class="nav-phone" data-toggle="modal" data-target="#popPhoneForm">
+                                <i class="fa fa-phone"></i>
+                                <span>CALL</span>
+                             </a>
+
+                             <a href="<?php echo home_url(); ?>/contact/" class="nav-contact">
+                                <i class="fa fa-envelope"></i>
+                                <span>CONTACT</span>
+                             </a>
+                          </div>
+
+                          <nav id="mainNav" class="mobile-nav" role="navigation">
+                             <a href="javascript:void(0);" class="get-quote primaryButton" data-toggle="modal" data-target="#popForm">Contact Button</a>
+                             <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '' ) ); ?>
+                          </nav>
+
+                       </div>
+
                </div>
             </div>
 
-            <div class="header-nav row padding10">
-
-               <div class="mobile-icons">
-                  <a href="javascript:void(0);" id="navToggle" class="nav-toggle">
-                     <i class="fa fa-bars"></i>
-                     <span>MENU</span>
-                  </a>
-                  <a href="javascript:void(0);" class="nav-phone" data-toggle="modal" data-target="#popPhoneForm">
-                     <i class="fa fa-phone"></i>
-                     <span>CALL</span>
-                  </a>
-
-                  <a href="<?php echo home_url(); ?>/contact/" class="nav-contact">
-                     <i class="fa fa-envelope"></i>
-                     <span>CONTACT</span>
-                  </a>
-               </div>
-
-               <nav id="mainNav" class="mobile-nav" role="navigation">
-                  <a href="javascript:void(0);" class="get-quote primaryButton" data-toggle="modal" data-target="#popForm">Contact Button</a>
-                  <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '' ) ); ?>
-               </nav>
-
-            </div>
           </div>
       </header>
 

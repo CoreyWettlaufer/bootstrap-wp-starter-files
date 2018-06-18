@@ -1,0 +1,58 @@
+/***
+****** These are the base styles for the default header.php file. If you modify that file in the child theme you will need to over-write the styles as well.
+***/
+
+header {
+   .header-block {
+      .widget {
+         &:first-child {
+            margin-top: auto;
+            text-align: right;
+         }
+      }
+   }
+
+   .header-nav {
+      justify-content: flex-end;
+      margin-top: auto;
+
+      .mobile-icons {
+         display: none;
+      }
+
+      #mainNav {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: center;
+
+         .get-quote {
+            order: 3;
+         }
+
+         .menu {
+            ul {
+               display: flex;
+               flex-direction: row;
+               flex-wrap: wrap;
+               list-style: none;
+               margin: 0;
+               padding: 0;
+
+               li {
+                  /*margin-left: 2.5rem;
+                  &:first-child {
+                     margin-left: 0;
+                  }*/
+                  line-height: 3.5rem;
+
+                  a {
+                     display: block;
+                     padding: 0 2rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
