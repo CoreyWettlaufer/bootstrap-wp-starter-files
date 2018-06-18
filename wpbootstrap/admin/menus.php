@@ -8,7 +8,7 @@
 
 function register_my_menus() {
   register_nav_menus(array(
-  'header-menu' => ('Header Menu'),
+  'main-menu' => ('Main Menu'),
   'footer-menu' => ('Footer Menu'),
   ));
 }

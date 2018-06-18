@@ -30,25 +30,52 @@ header {
             order: 3;
          }
 
-         .menu {
-            ul {
-               display: flex;
-               flex-direction: row;
-               flex-wrap: wrap;
-               list-style: none;
+         #menu-main-menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            >li {
+               /*margin-left: 2.5rem;
+               &:first-child {
+                  margin-left: 0;
+               }*/
+               line-height: 3.5rem;
+               position: relative;
+
+               a {
+                  display: block;
+                  padding: 0 2rem;
+               }
+            }
+
+            li {
+               &:hover {
+                  .sub-menu {
+                     display: block;
+                  }
+               }
+            }
+
+            .sub-menu {
+               position: absolute;
+               top: auto;
+               left: 0;
                margin: 0;
                padding: 0;
+               display: none;
+               width: 100%;
+               white-space: nowrap;
 
                li {
-                  /*margin-left: 2.5rem;
-                  &:first-child {
-                     margin-left: 0;
-                  }*/
-                  line-height: 3.5rem;
+                  display: block;
+                  line-height: 4.5rem;
 
                   a {
                      display: block;
-                     padding: 0 2rem;
                   }
                }
             }
