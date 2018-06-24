@@ -46,11 +46,7 @@ function yoasttobottom() {
 }
 add_filter( 'wpseo_metabox_prio', 'yoasttobottom');
 
-function filter_ptags_on_images($content){
-   return preg_replace('​/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
-}
 
-add_filter('the_content', 'filter_ptags_on_images');
 
 remove_filter( 'the_content', 'wpautop' );
 add_filter( 'the_content', 'wpautop' , 12);
