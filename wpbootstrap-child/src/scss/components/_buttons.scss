@@ -1,0 +1,25 @@
+/* This stylesheet should be used only for button styles on your site unless you are strictly using bootstraps .btn styles */
+
+button, .button {
+    /* Styles for all buttons here */
+
+    &:hover {
+        /* Default hover styles for all buttons */
+    }
+
+    &.primaryButton {
+        /* Styles for primary buttons here */
+
+        &:hover {
+            /* Hover styles for primary buttons */
+        }
+    }
+
+    &.secondaryButton {
+        /* Styles for secondary buttons here */
+
+        &:hover {
+            /* Hover styles for secondary buttons */
+        }
+    }
+}
