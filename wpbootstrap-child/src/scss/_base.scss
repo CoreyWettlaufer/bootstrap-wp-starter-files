@@ -1,36 +1,32 @@
 /* This stylesheet is for any custom classes you create in your child theme. See below for examples */
 
 /* Text colors */
-.primaryDarkText {
-    color: $primaryDark;
+.primaryText {
+    color: $primary;
 }
 
-.primaryLightText {
-    color: $primaryLight;
+.secondary {
+    color: $secondary;
 }
 
-.secondaryDarkText {
-    color: $secondaryDark;
-}
-
-.secondaryLightText {
-    color: $secondaryLight;
+.tertiaryText {
+    color: $tertiary;
 }
 
 
 /* Background Colors */
-.primaryDarkBg {
-    color: $primaryDark;
+.primaryBg {
+    background: $primary;
 }
 
-.primaryLightBg {
-    color: $primaryLight;
+.secondaryBg {
+    background: $secondary;
 }
 
 .secondaryDarkBg {
-    color: $secondaryDark;
+    background: $tertiary;
 }
 
-.secondaryLightBg {
-    color: $secondaryLight;
+.tertiaryBg {
+    background: $tertiary;
 }
