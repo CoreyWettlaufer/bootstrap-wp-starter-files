@@ -64,3 +64,10 @@ h6 {
 a, a:link, a:visited, a:hover {
    text-decoration: none;
 }
+
+/* Not really typography, but global element style setting */
+img {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+}
