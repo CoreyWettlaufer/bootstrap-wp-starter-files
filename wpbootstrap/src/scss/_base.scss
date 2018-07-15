@@ -22,7 +22,11 @@ html, body {
    padding: 6rem 0;
 }
 
-/* Text classes */
+/*******************************************
+*********** TEXT HELPER CLASSES ************
+*******************************************/
+
+/* Text position classes */
 .textCenter {
     text-align: center;
 }
@@ -34,7 +38,10 @@ html, body {
 .textRight {
     text-align: right;
 }
+/* End text position classes */
 
+
+/* Text case classes */
 .textLowerCase {
     text-transform: lowercase;
 }
@@ -46,7 +53,10 @@ html, body {
 .textUpperCase {
     text-transform: uppercase;
 }
+/* End text case classes */
 
+
+/* Text weight classes */
 .fontWeightNormal {
     font-weight: normal;
 }
@@ -54,7 +64,10 @@ html, body {
 .fontWeightBold {
     font-weight: bold;
 }
+/* End text weight classes */
 
+
+/* Text size classes */
 .fontSmall {
     font-size: 1.4rem;
 }
@@ -90,6 +103,10 @@ html, body {
 .font30 {
     font-size: 3rem;
 }
+/* End text size classes */
+/***********************************************
+*********** END TEXT HELPER CLASSES ************
+***********************************************/
 
 
 /* Box shadow classes */
