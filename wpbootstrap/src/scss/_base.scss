@@ -109,7 +109,10 @@ html, body {
 ***********************************************/
 
 
-/* Box shadow classes */
+
+/***********************************************
+*********** BOX SHADOW HELPER CLASSES ************
+***********************************************/
 .boxShadow {
    /* bottom and right side only */
    box-shadow: 8px 8px 10px -5px #5A5A5A;
@@ -126,13 +129,16 @@ html, body {
 .boxShadowFull {
    box-shadow: 0 0px 16px 0px #5A5A5A;
 }
+/***********************************************
+*********** END BOX SHADOW HELPER CLASSES ************
+***********************************************/
 
 
-/*
-***
-**** The code below is used for custom padding classes
-***
-*/
+
+
+/***********************************************
+*********** PADDING HELPER CLASSES ************
+***********************************************/
 
 // Top and bottom padding classes
 .padding0 {
@@ -238,15 +244,14 @@ html, body {
 .paddingB100 {
    padding-top: 10rem 0;
 }
+/***********************************************
+*********** END PADDING HELPER CLASSES ************
+***********************************************/
 
 
-
-/*
-***
-**** The code below is used for custom margin classes
-***
-*/
-
+/***********************************************
+*********** MARGIN HELPER CLASSES ************
+***********************************************/
 // Top and bottom margin classes
 .margin0 {
    margin: 0;
@@ -351,3 +356,6 @@ html, body {
 .marginB100 {
    margin-top: 10rem 0;
 }
+/***********************************************
+*********** END MARGIN HELPER CLASSES ************
+***********************************************/
