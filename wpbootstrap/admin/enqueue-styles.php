@@ -18,4 +18,7 @@ function custom_styles() {
 }
 add_action('wp_enqueue_scripts', 'custom_styles');
 
+
+
+/* Need to fix this file to fix the order of the css files being called. See NetGain functions for this. */
 ?>
