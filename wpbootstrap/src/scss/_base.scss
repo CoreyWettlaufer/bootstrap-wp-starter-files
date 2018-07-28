@@ -42,15 +42,15 @@ html, body {
 
 
 /* Text case classes */
-.textLowerCase {
+.LowerCase {
     text-transform: lowercase;
 }
 
-.textCapitalize {
+.Capitalize {
     text-transform: capitalize;
 }
 
-.textUpperCase {
+.UpperCase {
     text-transform: uppercase;
 }
 /* End text case classes */
@@ -68,7 +68,7 @@ html, body {
 
 
 /* Text size classes */
-.fontSmall {
+.font14 {
     font-size: 1.4rem;
 }
 
