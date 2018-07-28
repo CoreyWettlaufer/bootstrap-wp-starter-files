@@ -61,8 +61,12 @@ h6 {
 }
 
 /* Remove default text underline on link states. */
-a, a:link, a:visited, a:hover {
+a, a:link, a:visited {
    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* Not really typography, but global element style setting */
