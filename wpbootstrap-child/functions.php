@@ -9,9 +9,8 @@ function my_theme_enqueue_styles() {
     );
 
     // Google Fonts
-    //wp_enqueue_style( 'Oswald', 'https://fonts.googleapis.com/css?family=Oswald:300,400,700' );
-    //wp_enqueue_style( 'Raleway', 'https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i' );
-    //wp_enqueue_style( 'Raleway', 'https://fonts.googleapis.com/css?family=Lato' );
+    wp_enqueue_style( 'Roboto', 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' );
+    wp_enqueue_style( 'Rubik', 'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700' );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles', 30 );
 function ns_child_scripts() {
