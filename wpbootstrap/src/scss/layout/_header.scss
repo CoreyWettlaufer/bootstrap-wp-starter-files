@@ -52,14 +52,6 @@ header {
                }
             }
 
-            li {
-               &:hover {
-                  .sub-menu {
-                     display: block;
-                  }
-               }
-            }
-
             .sub-menu {
                position: absolute;
                top: auto;
@@ -75,6 +67,14 @@ header {
                   line-height: 4.5rem;
 
                   a {
+                     display: block;
+                  }
+               }
+            }
+
+            li {
+               &:hover {
+                  .sub-menu {
                      display: block;
                   }
                }
